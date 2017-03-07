@@ -1,0 +1,14 @@
+請將以下檔案放在同一個資料夾：
+rpg.cpp
+Map.h		Map.cpp
+RpgCreature.h	RpgCreature.cpp
+RpgPerson.h	RpgPerson.cpp
+Monster.h	Monster.cpp
+job.h		job.cpp
+Battle.h	Battle.cpp
+enemy.h		enemy.cpp
+save.h		save.cpp
+Makefile
+map.txt		save.txt
+然後在linux環境下鍵入”make”即可執行編譯
+最後鍵入”./rpg”即可執行遊戲
